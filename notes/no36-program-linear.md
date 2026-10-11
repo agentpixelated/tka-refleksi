@@ -27,6 +27,16 @@ Titik sudut biasanya berupa perpotongan sumbu (buat $x=0$ atau $y=0$) dan perpot
 ## Aplikasinya
 
 **Langkah 1 — Modelnya.** Misal $x$ = jaket Standar, $y$ = jaket Premium.
+Susunan datanya dalam tabel:
+
+| Kebutuhan | Standar ($x$) | Premium ($y$) | Persediaan |
+|---|---|---|---|
+| Kain parasut | 2 m | 1 m | $\le 48$ m |
+| Kain polar | 1 m | 3 m | $\le 64$ m |
+| Keuntungan | Rp60.000 | Rp80.000 | maksimumkan |
+
+Atau dalam bentuk matriks kendala:
+$$\begin{pmatrix} 2 & 1 \\ 1 & 3 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} \le \begin{pmatrix} 48 \\ 64 \end{pmatrix}$$
 
 Kendala kain parasut: $2x + y \le 48$
 Kendala kain polar: $x + 3y \le 64$
