@@ -1,0 +1,32 @@
+# No. 17 — Menabung: dua garis lurus, satu waktu yang sama
+
+**Soal (W4-No.3).** Ipin membeli sepeda dengan harga dua kali sepeda yang ingin dibeli Unyil. Unyil telah memiliki Rp 150.000,00 dan akan menabung Rp 3.000,00 per minggu. Ipin telah memiliki Rp 100.000,00 dan akan menabung Rp 10.000,00 per minggu. Harga sepeda yang akan dibeli Unyil adalah …
+
+A. Rp 200.000 **B. Rp 300.000** C. Rp 400.000 D. Rp 500.000 E. Rp 600.000
+
+*Sumber: 30 Soal TO Inten 2026/2027*
+
+---
+
+## Dasarnya
+
+Tabungan yang bertambah tetap tiap minggu adalah **garis lurus**: tabungan = modal awal + (tambahan per minggu) × (banyak minggu).
+
+**U(n) = 150.000 + 3.000n** (Unyil)
+**I(n) = 100.000 + 10.000n** (Ipin)
+
+dengan n = banyak minggu menabung. Soal seperti ini selalu memakai asumsi baku: **keduanya menabung selama waktu yang sama** — tanpa asumsi ini soalnya tak bisa diselesaikan, jadi itu yang dimaksud.
+
+Hubungan harganya: harga Ipin = 2 × harga Unyil, dan tiap orang tepat mencapai harga sepedanya. Jadi substitusi: I(n) = 2·U(n), selesaikan untuk n, lalu hitung U(n).
+
+## Aplikasinya
+
+100.000 + 10.000n = 2 × (150.000 + 3.000n)
+100.000 + 10.000n = 300.000 + 6.000n
+4.000n = 200.000 → **n = 50 minggu**
+
+Harga sepeda Unyil = U(50) = 150.000 + 3.000 × 50 = 150.000 + 150.000 = **Rp 300.000**.
+
+**Cek kewarasan:** Ipin di minggu ke-50 punya 100.000 + 500.000 = 600.000 — tepat dua kali 300.000. Konsisten.
+
+**Kunci: B** — Rp 300.000 (dengan asumsi waktu menabung sama).
